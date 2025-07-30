@@ -33,3 +33,127 @@ header {
 p{ 
     overflow: hidden;
 }
+
+.body1{
+    font-family: sans-serif;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 120vh;
+    background-color: rgb(19, 19, 164);
+    color: white;
+}
+
+.nav1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    border-bottom: 5px solid white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.back{
+    position: relative;
+    left: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.compname{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0;
+    color: white;
+}
+
+.rightgroup {
+    display: flex;
+    position: absolute;
+    padding-bottom: 20px;
+    align-items: center;
+    right: 1rem;
+    gap: 0.5rem;
+  }
+
+.input1[type=text]{
+    position: relative;
+    padding: 10px;
+    margin-top: 18px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .whole{
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+  }
+
+  .left-side{
+    padding: 50px 0px 30px 50px;
+  }
+
+  .main-img{
+    width: 67%;
+    padding-top: 80px;
+    height: 90%;
+    border-radius: 100px;
+  }
+
+  .img1{
+    width: 283px;
+    height: 200px;
+    border-radius: 20px;
+  }
+
+  .left-side-alt{
+    font-size: 35px;
+    font: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    padding-right: 420px;
+  }
+
+  .right-side{
+    padding: 50px 0px 30px 0px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 30px;
+  }
+
+  .index1-h2{
+    font-size: 60px;
+  }
+
+  .timer{
+    font-size: 25px;
+    padding: 0;
+  }
+
+  .diff{
+    font-size: 45px;
+    font-weight: 600;
+  }
+
+  .index1-h3{
+    font-size: 35px;
+  }
+
+  .text{
+    padding-right: 50px;
+  }
