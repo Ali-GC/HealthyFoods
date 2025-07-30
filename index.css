@@ -9,6 +9,7 @@ body {
     margin-top: 0;
     padding: 40px;
     top: 0;
+    border-bottom: 5px solid white;
 }
 
 .option{
