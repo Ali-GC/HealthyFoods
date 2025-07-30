@@ -1,6 +1,8 @@
 body {
     font-family: sans-serif;
     margin: 0 auto;
+    background-color: rgb(19, 19, 164);
+    color: white;
 }
 
 header {
@@ -156,4 +158,14 @@ p{
 
   .text{
     padding-right: 50px;
+  }
+
+  .filter-options{
+    border-right: solid white; 
+    padding-right: 20px;
+  }
+
+  .item-link{
+    color: white; 
+    text-decoration: none;
   }
